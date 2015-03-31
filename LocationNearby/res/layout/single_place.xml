@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <!-- Name Label -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="10dip"
+        android:text="Name:"
+        android:textStyle="bold" />
+
+    <!-- Name Value -->
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Address Label -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="15dip"
+        android:text="Address:"
+        android:textStyle="bold" />
+
+    <!-- Address Value -->
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- vicinity Label -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="20dip"
+        android:text="Address2:"
+        android:textStyle="bold" />
+
+    <!-- Address Value -->
+
+    <TextView
+        android:id="@+id/vicinity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Address Label -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="25dip"
+        android:text="Contact Number:"
+        android:textStyle="bold" />
+
+    <!-- Address Value -->
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:phoneNumber="true" />
+
+    <!-- Address Label -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="28dip"
+        android:text="Website:"
+        android:textStyle="bold" />
+
+    <!-- Address Value -->
+
+    <TextView
+        android:id="@+id/website"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web" />
+
+    <!-- Address Label -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dip"
+        android:layout_marginTop="31dip"
+        android:text="Rating:"
+        android:textStyle="bold" />
+
+    <!-- Address Value -->
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <!-- Address Label -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dip"
+        android:layout_marginTop="34dip"
+        android:text="URL:"
+        android:textStyle="bold" />
+
+    <!-- Address Value -->
+
+    <TextView
+        android:id="@+id/url"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" 
+        />
+
+</LinearLayout>

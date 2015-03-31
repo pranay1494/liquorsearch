@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Liquor Search</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="str_btn_find">Find</string>
+    
+    <string-array name="place_type">
+        <item>bar</item>
+        <item>liquor_store</item>
+    </string-array>
+    
+    <string-array name="place_type_name">
+        <item>Bar</item>
+        <item>Liquor Store</item>
+    </string-array>
+    <string name="get_data">Get List</string>
+	
+    <string name="get">Find</string>
+    <string name="get1">Get Directions</string>
+</resources>
